@@ -1,0 +1,258 @@
+{
+	"tldrawFileFormatVersion": 1,
+	"schema": {
+		"schemaVersion": 2,
+		"sequences": {
+			"com.tldraw.store": 5,
+			"com.tldraw.asset": 1,
+			"com.tldraw.camera": 1,
+			"com.tldraw.document": 2,
+			"com.tldraw.instance": 25,
+			"com.tldraw.instance_page_state": 5,
+			"com.tldraw.page": 1,
+			"com.tldraw.instance_presence": 6,
+			"com.tldraw.pointer": 1,
+			"com.tldraw.shape": 4,
+			"com.tldraw.asset.bookmark": 2,
+			"com.tldraw.asset.image": 5,
+			"com.tldraw.asset.video": 5,
+			"com.tldraw.shape.group": 0,
+			"com.tldraw.shape.text": 3,
+			"com.tldraw.shape.bookmark": 2,
+			"com.tldraw.shape.draw": 2,
+			"com.tldraw.shape.geo": 10,
+			"com.tldraw.shape.note": 9,
+			"com.tldraw.shape.line": 5,
+			"com.tldraw.shape.frame": 1,
+			"com.tldraw.shape.arrow": 7,
+			"com.tldraw.shape.highlight": 1,
+			"com.tldraw.shape.embed": 4,
+			"com.tldraw.shape.image": 5,
+			"com.tldraw.shape.video": 4,
+			"com.tldraw.binding.arrow": 1
+		}
+	},
+	"records": [
+		{
+			"gridSize": 10,
+			"name": "",
+			"meta": {},
+			"id": "document:document",
+			"typeName": "document"
+		},
+		{
+			"meta": {},
+			"id": "page:page",
+			"name": "Page 1",
+			"index": "a1",
+			"typeName": "page"
+		},
+		{
+			"id": "pointer:pointer",
+			"typeName": "pointer",
+			"x": 778.4000244140625,
+			"y": 361.6000061035156,
+			"lastActivityTimestamp": 1759651906585,
+			"meta": {}
+		},
+		{
+			"followingUserId": null,
+			"opacityForNextShape": 1,
+			"stylesForNextShape": {
+				"tldraw:geo": "rectangle",
+				"tldraw:fill": "none",
+				"tldraw:size": "s"
+			},
+			"brush": null,
+			"scribbles": [],
+			"cursor": {
+				"type": "default",
+				"rotation": 0
+			},
+			"isFocusMode": false,
+			"exportBackground": true,
+			"isDebugMode": false,
+			"isToolLocked": false,
+			"screenBounds": {
+				"x": 0,
+				"y": 0,
+				"w": 1188,
+				"h": 702.4000244140625
+			},
+			"insets": [
+				false,
+				false,
+				true,
+				false
+			],
+			"zoomBrush": null,
+			"isGridMode": false,
+			"isPenMode": false,
+			"chatMessage": "",
+			"isChatting": false,
+			"highlightedUserIds": [],
+			"isFocused": true,
+			"devicePixelRatio": 1.25,
+			"isCoarsePointer": false,
+			"isHoveringCanvas": true,
+			"openMenus": [],
+			"isChangingStyle": false,
+			"isReadonly": false,
+			"meta": {},
+			"duplicateProps": null,
+			"id": "instance:instance",
+			"currentPageId": "page:page",
+			"typeName": "instance"
+		},
+		{
+			"editingShapeId": null,
+			"croppingShapeId": null,
+			"selectedShapeIds": [
+				"shape:Pib8tHNsc2PYmqpy7xboE"
+			],
+			"hoveredShapeId": "shape:Pib8tHNsc2PYmqpy7xboE",
+			"erasingShapeIds": [],
+			"hintingShapeIds": [],
+			"focusedGroupId": null,
+			"meta": {},
+			"id": "instance_page_state:page:page",
+			"pageId": "page:page",
+			"typeName": "instance_page_state"
+		},
+		{
+			"x": 0,
+			"y": 0,
+			"z": 1,
+			"meta": {},
+			"id": "camera:page:page",
+			"typeName": "camera"
+		},
+		{
+			"x": 299.20001220703125,
+			"y": 105.5999984741211,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:ts0FgN-ZUvqHXX-1_e5GW",
+			"type": "geo",
+			"props": {
+				"w": 567.2000122070312,
+				"h": 476.00003814697266,
+				"geo": "rectangle",
+				"dash": "draw",
+				"growY": 0,
+				"url": "",
+				"scale": 1,
+				"color": "black",
+				"labelColor": "black",
+				"fill": "none",
+				"size": "m",
+				"font": "draw",
+				"align": "middle",
+				"verticalAlign": "middle",
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph"
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "a1",
+			"typeName": "shape"
+		},
+		{
+			"x": 312.3688659667969,
+			"y": 202.19998168945312,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:Pib8tHNsc2PYmqpy7xboE",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "s",
+				"w": 757.862548828125,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": false,
+				"scale": 0.9498823768286979,
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph",
+							"content": [
+								{
+									"type": "text",
+									"text": "\"1. Start: Raw dataframe (features + target)\",\r"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"content": [
+								{
+									"type": "text",
+									"text": "  \"2. Split: train_test_split(X, y)\",\r"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"content": [
+								{
+									"type": "text",
+									"text": "  \"3. Fit encoder on TRAIN\\nct.fit_transform(X_train)\",\r"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"content": [
+								{
+									"type": "text",
+									"text": "  \"4. Transform TRAIN\\n(ct.fit_transform -> X_train_trf)\",\r"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"content": [
+								{
+									"type": "text",
+									"text": "  \"5. Transform TEST\\nct.transform(X_test) -> X_test_trf\",\r"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"content": [
+								{
+									"type": "text",
+									"text": "  \"6. Fit model on TRAIN\\nmodel.fit(X_train_trf, y_train)\",\r"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"content": [
+								{
+									"type": "text",
+									"text": "  \"7. Predict & Evaluate\\nmodel.predict(X_test_trf)\\nmetrics\""
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "a2p8oXdV",
+			"typeName": "shape"
+		}
+	]
+}
